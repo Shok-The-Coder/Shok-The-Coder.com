@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Free Avatar Movie</title>
+  </head>
+  <body>
+<style>
+        
+        #button {
+            background: #e75480;
+            border-style: solid;
+            border-color: white white white white;
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+            font-size: 20px;
+        }
+    
+        
+        #button:hover {
+            background: white;
+            border-style: solid;
+            border-color: #e75480;
+            color: #e75480;
+            cursor: pointer;
+            padding: 9.5px;
+        }
+    
+        body {
+            background: lightblue;
+        }
+  
+        #credits {
+          border-style: solid;
+          border-color: white;
+          background: #e75480;
+          color: white;
+          padding: 10px;
+          font-size: 20px;
+          border-radius: 10px;
+        }
+  
+        #credits:hover {
+          cursor: pointer;
+          border-style: solid;
+          border-color: #e75480;
+          background: white;
+          color: #e75480;
+        }
+    
+        </style>
+    
+    
+    
+    <button id="button" type="button" onclick = "goofyQuestions()">Watch Avatar: The Last Airbender. For Free!</button><br><br><br>
+    
+    
+    
+    <button id = "credits" type = "button" onclick = "credits()">Credits</button>
+    
+    <script>
+    	
+        function goofyQuestions() {
+        	var ruSure = prompt("Are you sure you would want to click this? (yes/no)")
+            if (ruSure === "yes") {
+            	var confirmation = prompt("ARE YOU REALLY SURE? (YESS!!!/nope)")
+                
+                if (confirmation === "YES!!!") {
+                	var passwordQuestion = alert("Then, what is your PASSWORD?")
+                    var password = "(hint: PASSWORD)"
+                    var passwordInput = prompt("PASSWORD " + password)
+                    
+                    if (passwordInput === "PASSWORD") {
+                    	alert("Oh...")
+                        alert("So you found the password eh?")
+                        
+                        alert("I'LL GIVE YOU ONE MORE CHALLENGE!")
+                        var trollQuestion = prompt("WHAT IS 1 + 1 = ? (3, 5, 2)")
+                        if (trollQuestion === "2") {
+                        	alert("NYEHEHEHEHEHHEH")
+                            alert("YOUR ANSWER IS WRONG!")
+                            
+                            var iqTroll = prompt("NYEHEHEHEHHEH (Your IQ Sucks/ok you win)")
+                            if (iqTroll === "Your IQ Sucks") {
+                            	alert("Huh?")
+                                alert("How dare You!")
+                                alert("...")
+                                alert("Fine! This button function for you!")
+                                alert("What are you wating for?")
+                                alert("Oh...")
+                                alert("hehEHEH")
+                                alert("NYEHEHEH")
+                                alert("THIS BUTTON DOES NOTHING!")
+                                alert("YA WASTED ALL YOUR TIME!")
+                                alert("ahhahahhaHAHAH")
+                            }
+                            
+                            else if (iqTroll === "ok you win") {
+                            	alert("yes i won!")
+                                alert("Didn't I?")
+                                alert("You officially lose!")
+                                alert("NOW GET OUTTA HERE")
+                            }
+                            
+                        }
+                        
+                        if (trollQuestion === "5") {
+                        	alert("Bad iq, now get outta here")
+                        }
+                        
+                        if (trollQuestion === "3") {
+                        	alert("YA PLAYI'N MEMES WITH ME?")
+                        }
+                        
+                    }
+                    
+                    // Wrong Password
+                    else {
+                    	alert("Errr...")
+                        alert("WRONG!")
+                    }
+                    
+                }
+                
+                else if (confirmation === "nope") {
+                	alert("Alright, leave!")
+                }
+                
+            }
+            
+            if (ruSure === "no") {
+            	alert("Very well then...")
+            }
+            
+        }
+      
+      function credits() {
+        alert("All made by Panhareach")
+        
+        var codeChoicePeak = prompt("What Code do you wanna see in this page? Even this meesage is coded. (HTML/CSS/JavaScript/Everything)")
+        
+        if (codeChoicePeak === "HTML") {
+          alert("<!DOCTYPE html>
+<html>
+  <head>
+    <title>Free Avatar Movie</title>
+  </head>
+  <body>
+    <button id='button' type='button' onclick = 'goofyQuestions()">Watch Avatar: The Last Airbender. For Free!</button><br><br><br>
+    
+    
+    
+    <button id = "credits" type = "button" onclick = "credits()">Credits</button>")
+        }
+        
+      }
+        
+    </script>
+
+</body>
+</html>
